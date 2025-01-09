@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+h1, h2 {
+  margin: 20px 0;
+}
+
+button, input {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input {
+  width: 200px;
+  text-align: center;
+}
+
+#menu, #settings, #info, #gameCanvas {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: #000;
+}
