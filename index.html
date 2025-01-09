@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Satisfying Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Main Menu -->
+  <div id="menu" class="active">
+    <h1>Satisfying Game</h1>
+    <input type="text" id="username" placeholder="Enter your username">
+    <button id="startButton">Start Game</button>
+    <button id="settingsButton">Settings</button>
+    <button id="infoButton">Info</button>
+  </div>
+
+  <!-- Settings Page -->
+  <div id="settings">
+    <h2>Settings</h2>
+    <button id="toggleSound">Sound: On</button>
+    <button id="toggleVibration">Vibration: Off</button>
+    <button id="graphicsQuality">Graphics: High</button>
+    <button id="backToMenu">Back to Menu</button>
+  </div>
+
+  <!-- Info Page -->
+  <div id="info">
+    <h2>Info</h2>
+    <p>
+      Developed by Nicolite Montessori School TVL 12.<br>
+      Special thanks to Martal, Iyan, Luigi, Bibit, Salanguit, Toledo, and others.<br>
+      This project was built using pure HTML, CSS, and JavaScript.
+    </p>
+    <button id="backToMenuInfo">Back to Menu</button>
+  </div>
+
+  <!-- Game Canvas -->
+  <canvas id="gameCanvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
